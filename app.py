@@ -20,6 +20,7 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
 
 pipe = pickle.load(open('pipe.pkl', 'rb'))
 st.title("IPL Win Predictor")
+st.text("Project by Atharva Rajadhyaksha")
 
 col1, col2 = st.beta_columns(2)
 
